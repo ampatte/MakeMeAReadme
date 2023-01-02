@@ -15,7 +15,7 @@ const questions = [
       },
       {//installation section
         type: 'input',
-        message: 'What are the installation instructions to run this program?',
+        message: 'Provide instructions on how to install requirments and run this program.',
         name: 'installation',
       },
       {//usage section
@@ -25,7 +25,7 @@ const questions = [
       },
       {//contribution section
         type: 'input',
-        message: 'How can others contribute to this program?',
+        message: 'Who contributed to this program? How can others contribute to this program?',
         name: 'contribution',
       },
       {//test section
