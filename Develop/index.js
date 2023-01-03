@@ -45,6 +45,11 @@ const questions = //inquirer.prompt
       type: 'input',
       message: 'What is your email address?',
       name: 'email',
+    },
+    {
+      type: 'list',
+      message: 'What license would you like to add to your program?',
+      name: 'license',
     }
   ]
     
