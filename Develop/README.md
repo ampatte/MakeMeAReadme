@@ -1,7 +1,7 @@
-# MakeMeAReademe
+# MakeMeAReadme
 
   ## Description
-  This program dynamically generates a README using user inputs.
+  This program dynamically generated README files
 
   ## Table of Contents
   - [Installation Instructions](#Installation)
@@ -11,18 +11,18 @@
   - [Questions](#Questions)
   - [License](#License)
   ## Installation
-  Before running this program Node.js and inquirer must be installed in the command line. The program is then initiated by entering node index.js in the command line.
+  In order to run this program, you must first install the Inquirer package in the terminal.
 
   ## Usage
-  This program was originally created as a class assignment. It will continue to be used to generate README's for future projects I create, and thus becoming a time saver.
+  This program was created for an assignment but will be used to generate READMEs for future projects and assignments. This will in turn save me time.
   
   ![alt text](assets/images/screenshot.png)
 
   ## Contribution
-  Anna Marie Patterson
+  AnnaMarie Patterson
 
   ## Test
-  
+  n/a
 
   ## Questions?
   - Github link: undefined

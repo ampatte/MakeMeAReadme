@@ -50,6 +50,7 @@ const questions = //inquirer.prompt
       type: 'list',
       message: 'What license would you like to add to your program?',
       name: 'license',
+      choices:['Apache','Boost', 'GNUGPLv3', 'ISC', 'MIT', 'Mozilla', 'Unlicense']
     }
   ]
     

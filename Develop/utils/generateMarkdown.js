@@ -2,14 +2,12 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   const licenseBadge= {
-    GNUAGPLv3: '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)',
-    GNUGPLv3: '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
-    GNULGPLv3: '[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)',
-    ISC: '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)',
-    Mozilla: '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',  
     Apache: '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
-    MIT: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
     Boost: '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)',
+    GNUGPLv3: '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
+    ISC: '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)',
+    MIT: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+    Mozilla: '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',  
     Unlicense: '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)',
   }
     if (license=>{licenseBadge(license)});
@@ -20,15 +18,13 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   const licenseLink= {
-    GNUAGPLv3: '()',
-    GNUGPLv3: '()',
-    GNULGPLv3: '()',
-    ISC: '()',
-    Mozilla: '()',
-    Apache: '(https://choosealicense.com/licenses/apache-2.0/)',
-    MIT: '(https://opensource.org/licenses/MIT)',
-    Boost: '()',
-    Unlicense: '()',
+    Apache: '(https://www.apache.org/licenses/LICENSE-2.0)',
+    Boost: '(https://www.boost.org/users/license.html)',
+    GNUGPLv3: '(https://www.gnu.org/licenses/gpl-3.0.en.html)',
+    ISC: '(https://www.isc.org/licenses/)',
+    MIT: '(https://choosealicense.com/licenses/mit/)',
+    Mozilla: '(https://www.mozilla.org/en-US/MPL/2.0/)',
+    Unlicense: '(https://unlicense.org/)',
   }
     if (license=>{licenseLink(license)});
       else {''}
@@ -38,7 +34,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   const licenseSection= ''
-    if (license=>{licenseSection(data.license)});
+    if (license=>{licenseSection(data.license[0])});
       else {''}
   }
 
