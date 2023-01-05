@@ -97,7 +97,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions?
-  - Github link: github.com/${data.github}
+  - Github link: https://github.com/${data.github}
   - Email link: ${data.email}
 
   ## License
