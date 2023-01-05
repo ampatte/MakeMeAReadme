@@ -1,7 +1,9 @@
-# MakeMeAReadme
+# 
+
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
-  This program dynamically generated README files
+  
 
   ## Table of Contents
   - [Installation Instructions](#Installation)
@@ -10,20 +12,24 @@
   - [Test Instructions](#Test)
   - [Questions](#Questions)
   - [License](#License)
+  
   ## Installation
-  In order to run this program, you must first install the Inquirer package in the terminal.
+  
 
   ## Usage
-  This program was created for an assignment but will be used to generate READMEs for future projects and assignments. This will in turn save me time.
   
-  ![alt text](assets/images/screenshot.png)
+  
+  ![alt text](Assets/images/screenshot.png)
 
   ## Contribution
-  AnnaMarie Patterson
+  
 
   ## Test
-  n/a
+  
 
   ## Questions?
-  - Github link: undefined
+  - Github link: github.com/ampatte
   - Email link: ampatte717@gmail.com
+
+  ## License
+    This project is covered under the Apache license.(https://www.apache.org/licenses/LICENSE-2.0)
