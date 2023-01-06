@@ -1,10 +1,10 @@
 # MakeMeAReadme
-Professional Readme Generator
+Professional README Generator
 ![2023-01-05 (2)](https://user-images.githubusercontent.com/114951014/210896363-fa045ff5-05cc-4c29-a92a-30593e0e6d42.png)
 
 https://watch.screencastify.com/v/T2iaFqt5CS0n4ufybO0H
 
-# Professional README Generator Starter Code
+# This project assignment included Starter Code
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
