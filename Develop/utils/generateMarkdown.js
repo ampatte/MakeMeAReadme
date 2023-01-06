@@ -74,8 +74,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
   ![alt text](Assets/images/2023-01-05 (2).png)
-  ![alt text](Assets/images/2023-01-05 (5).png)
-
+  
   ## Contribution
   ${data.contribution}
 

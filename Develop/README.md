@@ -1,9 +1,9 @@
-# 
+# MakeMeAReadme
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  
+  This program dynamically creates README files
 
   ## Table of Contents
   - [Installation Instructions](#Installation)
@@ -14,22 +14,21 @@
   - [License](#License)
   
   ## Installation
-  
+  An IDE with Node.js and Inquirer installed are the requirements.
 
   ## Usage
+  This program was created for an assignment. It will be used to generate READMEs for future progams and assignments, which will in turn save time.
+  ![alt text](Assets/images/2023-01-05 (2).png)
   
-  
-  ![alt text](Assets/images/screenshot.png)
-
   ## Contribution
-  
+  I am the only contributor of this project. Email me.
 
   ## Test
-  
+  n/a
 
   ## Questions?
-  - Github link: github.com/ampatte
+  - Github link: https://github.com/ampatte
   - Email link: ampatte717@gmail.com
 
   ## License
-    This project is covered under the Apache license.(https://www.apache.org/licenses/LICENSE-2.0)
+    This project is covered under the MIT license.(https://choosealicense.com/licenses/mit/)
